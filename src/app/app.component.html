@@ -5,9 +5,23 @@
       <img src="assets/images/SMS.jpg" width="50px" height="50px">
     </div>
     <div class="tabs">
-      <div class="tab-text">ABOUT</div>
-      <div class="tab-text">WORK</div>
-      <div class="tab-text">CONTACT</div>
+      <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
   </div>
   <div class="title">
@@ -16,16 +30,15 @@
   <div class="sub-title">
     <div class="sub-text">- FRONT-END DEVELOPER -</div>
   </div>
-  <div class="about-title">
-    <div class="section-text">About<br>_______</div>
-    <!-- <img src="assets/images/bracket.jpg" width="35px" height="35px"> -->
+  <div class="about-title" id="about">
+    <div class="section-text">About<br><hr></div>
   </div>
   <div class="about-description">
-    <div class="description-text">
-    Hello! I'm Stefani, a senior at the University of Washington studying Informatics and
-    Speech and Hearing Sciences. With my background in Speech and Hearing Sciences and UX, I
-    am passionate about designing and developing responsive and compatible websites that
-    are available for people of all abilities to use.
+    <div class="description-text" >
+    Hello! I'm Stefani, a senior at the University of Washington studying Informatics
+    and Speech and Hearing Sciences. I am passionate about designing and developing
+    responsive and compatible websites that are available for people of all abilities
+    to use.
     <br><br>
     I currently work as a Software Engineer Intern at OMNI ePartners where I get to
     work on a variety of projects involving eCommerce and brand management.
@@ -33,47 +46,51 @@
     </div>
   </div>
   <div class="skills">
-    <div class="description-text">- JavaScript</div>
-    <div class="description-text">- Java</div>
-    <div class="description-text">- HTML</div>
-    <div class="description-text">- Angular</div>
-    <div class="description-text">- CSS</div>
-    <div class="description-text">- React</div>
-    <div class="description-text">- Typescript</div>
-    <div class="description-text">- SQL</div>
+    <div class="skills-text">- JAVASCRIPT</div>
+    <div class="skills-text">- JAVA</div>
+    <div class="skills-text">- HTML</div>
+    <div class="skills-text">- ANGULAR</div>
+    <div class="skills-text">- CSS</div>
+    <div class="skills-text">- REACT</div>
+    <div class="skills-text">- TYPESCRIPT</div>
+    <div class="skills-text">- SQL</div>
   </div>
   <div class="profile">
     <img src="assets/images/Profile.jpg" width="300px" height="300px">
   </div>
-  <div class="work-title">
-    <div class="section-text">Recent Work<br>_____________</div>
+  <div class="work-title" id="work">
+    <div class="section-text">Work<br><hr></div>
   </div>
   <div class="project-one">
     <div class="project-one-title">
-      <div class="section-text">Omni Platform<br>_______________</div>
+      <div class="project-text">Omni Platform<br><hr></div>
     </div>
     <div class="project-one-image">
-      <img src="assets/images/Omni_Screen.jpg" width="505px" height="300px">
+      <img src="assets/images/Omni_Screen.jpg" width="565px" height="300px">
     </div>
     <div class="project-one-description">
       <div class="description-text">
         An eCommerce performance analytics platform for Omni ePartners, a business
         management consultant company. Associated brands and brand managers can
         view the sales and performance analytics of their brands which includes
-        Amazon sales & share analytics, digital shelf analytics, and access expert
+        Amazon sales & share analytics, digital shelf analytics, and expert
         analysis & recommendations.
       </div>
       <div class="project-one-scope">
-        <div class="skills-text">- ANGULAR - JAVASCRIPT - TYPESCRIPT - HTML - CSS -</div>
+        <div class="skills-text">- ANGULAR</div>
+        <div class="skills-text">- JAVASCRIPT</div>
+        <div class="skills-text">- TYPESCRIPT</div>
+        <div class="skills-text">- HTML</div>
+        <div class="skills-text">- CSS</div>
       </div>
     </div>
   </div>
   <div class="project-two">
     <div class="project-two-title">
-      <div class="section-text">Restaraunt Manager<br>_____________________</div>
+      <div class="project-text">Restaraunt Manager<hr></div>
     </div>
     <div class="project-two-image">
-      <img src="assets/images/Restaraunt_Manager.jpg" width="505px" height="300px">
+      <img src="assets/images/Restaraunt_Manager.jpg">
     </div>
     <div class="project-two-description">
       <div class="description-text">
@@ -84,16 +101,20 @@
         displays the Yelp review information for each restaraunt. <br><br>
       </div>
       <div class="project-two-scope">
-        <div class="skills-text">- REACT - REACT ROUTER - JAVASCRIPT - HTML - CSS -</div>
+        <div class="skills-text">- REACT</div>
+        <div class="skills-text">- REACT ROUTER</div>
+        <div class="skills-text">- JAVASCRIPT</div>
+        <div class="skills-text">- HTML</div>
+        <div class="skills-text">- CSS</div>
       </div>
     </div>
   </div>
   <div class="project-three">
     <div class="project-three-title">
-      <div class="section-text">Spring OS<br>__________</div>
+      <div class="project-text">Spring OS<hr></div>
     </div>
     <div class="project-three-image">
-      <img src="assets/images/Spring.jpg" width="505px" height="300px">
+      <img src="assets/images/Spring.jpg">
     </div>
     <div class="project-three-description">
       <div class="description-text">
@@ -104,19 +125,26 @@
         parental control, and education via entertainment.
       </div>
       <div class="project-three-scope">
-        <div class="skills-text">- SKETCH - FIGMA - PHOTOSHOP - USER RESEARCH -</div>
+        <div class="skills-text">- SKETCH</div>
+        <div class="skills-text">- FIGMA</div>
+        <div class="skills-text">- PHOTOSHOP</div>
+        <div class="skills-text">- USER RESEARCH</div>
       </div>
     </div>
   </div>
-  <div class="contact">
+  <div class="contact" id="contact">
     <div class="contact-title">
-      <div class="section-text">Contact<br>________</div>
+      <div class="section-text">Contact<hr></div>
     </div>
     <div class="contact-description">
       <div class="description-text">
-        I am currently looking for full time jobs in web development, specifically in
-        front end development. Contact me at: sanch397@uw.edu.
+        I will be graduating from UW in Spring 2019 with a B.S. in Informatics
+        and Speech and Hearing Sciences. I am currently looking for full time jobs
+        in front end development.
       </div>
+    </div>
+    <div class="contact-box">
+      <button onclick="location.href='mailto:sanch397@uw.edu';">Email me</button>
     </div>
   </div>
 <div>
